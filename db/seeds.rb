@@ -14,14 +14,14 @@
 #   department_id: 1
 # )
 
-#   Employee.create(
-#   first_name: "jane",
-#   last_name: "schmoe",
-#   email: "jane@example.com",
-#   phone: "113-4567",
-#   job_title: "Benefits Coordinater",
-#   department_id: 1,
-#   admin: true
+  # Employee.create(
+  # first_name: "jane",
+  # last_name: "schmoe",
+  # email: "jane@example.com",
+  # phone: "113-4567",
+  # job_title: "Benefits Coordinater",
+  # department_id: 1,
+  # admin: true
 # )
 
 #   Department.create(
