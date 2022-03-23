@@ -1,0 +1,23 @@
+###Index Department
+GET http://localhost:3000/departments
+
+###Create Department
+POST http://localhost:3000/departments
+Content-Type: application/json
+
+{
+    "department_name": "PR",
+    "manager": "William Shakespeare",
+    "code": "2000"
+}
+
+###Update Department
+PATCH http://localhost:3000/departments/2
+Content-Type: application/json
+
+{
+  "department_name": "Public Relations"
+} 
+
+###Destroy Department
+DELETE http://localhost:3000/departments/3
