@@ -1,1 +1,28 @@
+###Index Employee
 GET http://localhost:3000/employees
+
+###Create Employee
+POST http://localhost:3000/employees
+Content-Type: application/json
+
+{
+  "first_name": "William",
+  "last_name": "Shakespeare",
+  "email": "William@example.com",
+  "phone": "111-1111",
+  "job_title": "Driver",
+  "department_id": 1
+}
+
+###Update Employee
+PATCH http://localhost:3000/employees/3
+Content-Type: application/json
+
+{
+  "job_title": "Writer",
+  "admin": true
+} 
+
+###Destroy Employee
+DELETE http://localhost:3000/employees/5
+Content-Type: application/json
