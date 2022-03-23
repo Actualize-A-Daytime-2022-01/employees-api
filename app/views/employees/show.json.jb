@@ -5,6 +5,6 @@
   email: @employee.email,
   phone: @employee.phone,
   job_title: @employee.job_title,
-  department_id: @employee.department_id,
+  department: @employee.department,
   admin: @employee.admin
 }

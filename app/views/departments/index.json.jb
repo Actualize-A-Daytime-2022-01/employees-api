@@ -1,6 +1,5 @@
 @departments.map do |department|
   {
-    id: department.id,
-    url: department_url(department, format: :json)
+    id: department.id
   }
 end
