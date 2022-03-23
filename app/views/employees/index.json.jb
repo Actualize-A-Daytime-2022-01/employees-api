@@ -1,6 +1,12 @@
 @employees.map do |employee|
   {
     id: employee.id,
-    url: employee_url(employee, format: :json)
+    first_name: employee.first_name,
+    last_name: employee.last_name,
+    email: employee.email,
+    phone: employee.phone,
+    job_title: employee.job_title,
+    department_id: employee.department_id,
+    admin: employee.admin
   }
 end
