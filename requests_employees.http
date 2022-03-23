@@ -29,3 +29,14 @@ Content-Type: application/json
 ###Destroy Employee
 DELETE http://localhost:3000/employees/8.json
 
+###Create User (signup)
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Bob", 
+  "email": "bob@example.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+

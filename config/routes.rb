@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   post "/departments" => "departments#create"
   patch "/departments/:id" => "departments#update"
   delete "/departments/:id" => "departments#destroy"
+
+  post "/users" => "users#create"
 end
