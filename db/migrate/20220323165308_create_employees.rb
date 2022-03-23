@@ -7,7 +7,7 @@ class CreateEmployees < ActiveRecord::Migration[7.0]
       t.string :phone
       t.string :job_title
       t.integer :department_id
-      t.boolean :admin
+      t.boolean :admin, default: false
 
       t.timestamps
     end
